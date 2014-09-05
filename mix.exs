@@ -26,6 +26,7 @@ defmodule Webber.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:ewebmachine, "~> 1.0.0"}]
+    [{:ewebmachine,"~> 1.0.0", github: "awetzel/ewebmachine"}]
+    # [{:ewebmachine, "~> 1.0.0"}]
   end
 end
